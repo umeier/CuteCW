@@ -1,7 +1,7 @@
 #ifndef LETTERTRAININGMODE_H
 #define LETTERTRAININGMODE_H
 
-#include <QtGui/QSpinBox>
+#include <QtWidgets/QSpinBox>
 
 #include "TrainingMode.h"
 

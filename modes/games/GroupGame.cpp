@@ -3,9 +3,9 @@
 #include "modes/games/GroupGame.h"
 #include "modes/QModeStart.h"
 
-#include <QtGui/QFormLayout>
-#include <QtGui/QSpinBox>
-#include <QtGui/QMenuBar>
+#include <QtWidgets/QFormLayout>
+#include <QtWidgets/QSpinBox>
+#include <QtWidgets/QMenuBar>
 
 GroupGame::GroupGame(Morse *parent, Ui::MainWindow *ui) :
   GroupingMode(parent, ui), MCountGameMode(), m_scores("Group Accuracy Game"), m_groupLengthSpinBox(0)

@@ -1,11 +1,11 @@
 #include "Prefs.h"
 #include "Morse.h"
 
-#include <QtGui/QTabWidget>
-#include <QtGui/QFormLayout>
-#include <QtGui/QSpinBox>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QDialogButtonBox>
+#include <QtWidgets/QTabWidget>
+#include <QtWidgets/QFormLayout>
+#include <QtWidgets/QSpinBox>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QDialogButtonBox>
 
 Prefs::Prefs(Morse *morse, QWidget *parent) :
     QDialog(parent, Qt::Window), m_morse(morse), m_oldTone(-1)

@@ -2,7 +2,7 @@
 #define PREFS_H
 #include "Morse.h"
 #include <QDialog>
-#include <QtGui/QSpinBox>
+#include <QtWidgets/QSpinBox>
 
 namespace Ui {
     class Prefs;

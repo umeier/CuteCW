@@ -1,7 +1,7 @@
 #ifndef SPEEDTRAININGMODE_H
 #define SPEEDTRAININGMODE_H
 
-#include <QtGui/QSpinBox>
+#include <QtWidgets/QSpinBox>
 
 #include "TrainingMode.h"
 #include "Morse.h"

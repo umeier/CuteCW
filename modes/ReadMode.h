@@ -2,8 +2,8 @@
 #define READMODE_H
 
 #include <QtGui/QTextCursor>
-#include <QtGui/QTextEdit>
-#include <QtGui/QSpinBox>
+#include <QtWidgets/QTextEdit>
+#include <QtWidgets/QSpinBox>
 #include <QtCore/QSignalMapper>
 #include <QtNetwork/QNetworkAccessManager>
 #include <QtNetwork/QNetworkReply>

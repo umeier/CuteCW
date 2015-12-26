@@ -3,10 +3,10 @@
 #include "modes/games/WordGame.h"
 #include "modes/QModeStart.h"
 
-#include <QtGui/QMenuBar>
-#include <QtGui/QFormLayout>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QSpinBox>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QFormLayout>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QSpinBox>
 
 WordGame::WordGame(Morse *parent, Ui::MainWindow *ui) :
   WordTrainingMode(parent, ui), MCountGameMode(), m_scores("Word Accuracy Game")

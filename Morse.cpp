@@ -2,9 +2,9 @@
 #include "Morse.h"
 
 #include <QtCore/QSettings>
-#include <QtGui/QMenu>
-#include <QtGui/QMenuBar>
-#include <QtGui/QSizePolicy>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QSizePolicy>
 #include <qdebug.h>
 
 #include "MainWindow.h"

@@ -2,13 +2,13 @@
 #include "Morse.h"
 #include "MainWindow.h"
 
-#include <QtGui/QMenuBar>
-#include <QtGui/QMessageBox>
-#include <QtGui/QTextEdit>
-#include <QtGui/QSpinBox>
-#include <QtGui/QLabel>
-#include <QtGui/QScrollArea>
-#include <QtGui/QHBoxLayout>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QMessageBox>
+#include <QtWidgets/QTextEdit>
+#include <QtWidgets/QSpinBox>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QScrollArea>
+#include <QtWidgets/QHBoxLayout>
 #include <qdebug.h>
 
 MorseMode::MorseMode(Morse *morse, Ui::MainWindow *ui)

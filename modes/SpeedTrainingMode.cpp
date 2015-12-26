@@ -1,7 +1,7 @@
 #include <qdebug.h>
-#include <QtGui/QHBoxLayout>
-#include <QtGui/QLabel>
-#include <QtGui/QFormLayout>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QFormLayout>
 
 #include "SpeedTrainingMode.h"
 

@@ -5,7 +5,7 @@
 #include <QtMultimedia/QAudioOutput>
 #include <QtCore/QMap>
 #include <QtCore/QList>
-#include <QtGui/QLabel>
+#include <QtWidgets/QLabel>
 #include <QtCore/QTime>
 #include <QtCore/QTimer>
 #include <QtGui/QTextCursor>

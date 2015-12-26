@@ -2,8 +2,8 @@
 #include "ui_MainWindow.h"
 #include "ui_AboutDialog.h"
 #include <QtMultimedia/QAudioFormat>
-#include <QtGui/QMenu>
-#include <QtGui/QMenuBar>
+#include <QtWidgets/QMenu>
+#include <QtWidgets/QMenuBar>
 #include <QtGui/QIcon>
 #include <qdebug.h>
 
@@ -94,8 +94,8 @@ MainWindow::createAudioOutput()
 {
    QAudioFormat settings;
 
-    settings.setFrequency(44100);
-    settings.setChannels(1);
+    settings.setSampleRate(44100);
+    settings.setChannelCount(1);
     settings.setSampleSize(16);
     settings.setCodec("audio/pcm");
     settings.setByteOrder(QAudioFormat::LittleEndian);

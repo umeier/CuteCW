@@ -1,7 +1,7 @@
 #ifndef GROUPGAMEMODE_H
 #define GROUPGAMEMODE_H
 
-#include <QtGui/QSpinBox>
+#include <QtWidgets/QSpinBox>
 
 #include "modes/GroupingMode.h"
 #include "modes/games/MCountGameMode.h"

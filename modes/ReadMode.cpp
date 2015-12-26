@@ -1,10 +1,10 @@
 #include <qdebug.h>
 
-#include <QtGui/QFileDialog>
-#include <QtGui/QMessageBox>
-#include <QtGui/QFormLayout>
+#include <QtWidgets/QFileDialog>
+#include <QtWidgets/QMessageBox>
+#include <QtWidgets/QFormLayout>
 #include <QtCore/QTimer>
-#include <QtGui/QMenu>
+#include <QtWidgets/QMenu>
 #include <QtXml/QDomDocument>
 #include <QtGui/QTextDocumentFragment>
 

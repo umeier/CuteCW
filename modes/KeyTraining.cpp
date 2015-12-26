@@ -2,15 +2,15 @@
 #include "Morse.h"
 #include "MainWindow.h"
 
-#include <QtGui/QMenuBar>
-#include <QtGui/QMessageBox>
-#include <QtGui/QTextEdit>
-#include <QtGui/QSpinBox>
-#include <QtGui/QLabel>
-#include <QtGui/QScrollArea>
-#include <QtGui/QHBoxLayout>
-#include <QtGui/QVBoxLayout>
-#include <QtGui/QGridLayout>
+#include <QtWidgets/QMenuBar>
+#include <QtWidgets/QMessageBox>
+#include <QtWidgets/QTextEdit>
+#include <QtWidgets/QSpinBox>
+#include <QtWidgets/QLabel>
+#include <QtWidgets/QScrollArea>
+#include <QtWidgets/QHBoxLayout>
+#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QGridLayout>
 #include <qdebug.h>
 
 KeyTraining::KeyTraining(Morse *morse, Ui::MainWindow *ui)
